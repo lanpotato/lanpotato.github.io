@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>LANPOTATO</title>
+		<link rel="stylesheet" href="assets/main.css" type="text/css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="imagetoolbar" content="no" />
+	    <script type='text/javascript'>
+	  		var now = new Date();
+			var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+			var dob = new Date(2004, 12, 13);
+			var dobnow = new Date(today.getFullYear(), dob.getMonth(), dob.getDate());
+			var age;
+			age = today.getFullYear() - dob.getFullYear();
+	    </script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<div class="content-block info-block">
+					<div class="img-container">
+						<div class="img-item"></div>
+					</div>
+
+					<div class="info-container">
+						<p class="h-info-txt">Немного обо мне:</p>
+						<p class="info-txt">Возраст: <script type="text/javascript">document.write(`${age}`);</script> лет</p>
+						<p class="info-txt">Родной город: Ивацевичи</p>
+						<p class="info-txt">Место учёбы: БГУИР филиал МРК (ПОИТ)</p>
+					</div>
+				</div>
+
+				<div class="content-block other-content">
+					<p class="head-txt">Привет, меня зовут Ангелина</p>
+
+					<div class="btns-container">
+						<a href="media.html" class="btn-item">Больше обо мне</a>
+
+						<a href="contacts.html" class="btn-item">Вы можете связаться со мной</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
